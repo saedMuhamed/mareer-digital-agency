@@ -9,4 +9,8 @@
  2. Create React App 
  Use 
  
- `npx create-react-app my-app `
+ `npx create-react-app mareer-digital-agency `
+ 
+ `cd mareer-digital-agency`
+ 
+ `npm start`
