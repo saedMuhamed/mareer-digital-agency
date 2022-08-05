@@ -3,7 +3,7 @@ import PageNotFound from "../Assets/img/404.png";
 
 export default function Error() {
     return (
-        <div className="bg-slate-100 dark:bg-primary-light lg:px-24 lg:py-24 md:py-20 md:px-44 px-4 py-24 flex  flex-col-reverse justify-items-center lg:flex-row md:gap-28 gap-10">
+        <div className="bg-[#FFE245] lg:px-24 lg:py-24 md:py-20 md:px-44 px-4 py-24 flex  flex-col-reverse justify-items-center lg:flex-row md:gap-28 gap-10">
             <div className="xl:pt-24  w-full xl:w-[900px]relative pb-12 lg:pb-0">
                 <div className="relative  ">
                     <div className="absolute ml-12 m:mr-14  md:mb-44 ">
