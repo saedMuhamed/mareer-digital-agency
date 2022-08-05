@@ -22,6 +22,9 @@ module.exports = {
           xl: "6rem",
         },
       },
+      backgroundImage: {
+        "bg-pattern": "url('/src/Assets/img/bg.png')",
+      },
     },
   },
   variants: {
