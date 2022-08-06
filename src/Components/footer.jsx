@@ -1,5 +1,6 @@
 import React from 'react'
-import {BsFacebook} from 'react-icons/bs'
+import { BsFacebook, BsTwitter } from 'react-icons/bs'
+import {AiFillInstagram} from 'react-icons/ai'
 
 function footer() {
   return (
@@ -60,21 +61,21 @@ function footer() {
                       </h5>
                       <div className='mt-6'>
                           <a href="https://www.facebook.com/sxabo">
-                              <i className='text-light-blue-400 font-lg align-center mr-2 inline-block items-center justify-center 
+                              <i className='text-light-blue-400 font-lg text-2xl align-center mr-2 inline-block items-center justify-center 
                               rounded-full bg-white p-3 text-center shadow-lg outline-none focus:outline-none'>
                                  <BsFacebook />
                               </i>
                           </a>
                            <a href="https://www.facebook.com/sxabo">
-                              <i className='text-light-blue-400 font-lg align-center mr-2 inline-block items-center justify-center 
+                              <i className='text-light-blue-400 font-lg text-2xl  align-center mr-2 inline-block items-center justify-center 
                               rounded-full bg-white p-3 text-center shadow-lg outline-none focus:outline-none'>
-                                 <BsFacebook />
+                                 <AiFillInstagram />
                               </i>
                           </a>
                            <a href="https://www.facebook.com/sxabo">
-                              <i className='text-light-blue-400 font-lg align-center mr-2 inline-block items-center justify-center 
+                              <i className='text-light-blue-400 font-lg text-2xl  align-center mr-2 inline-block items-center justify-center 
                               rounded-full bg-white p-3 text-center shadow-lg outline-none focus:outline-none'>
-                                 <BsFacebook />
+                                 <BsTwitter />
                               </i>
                           </a>
                       </div>

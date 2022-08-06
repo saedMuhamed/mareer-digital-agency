@@ -1,8 +1,7 @@
 import React from 'react'
 import { FiMenu } from 'react-icons/fi'
-import { AiOutlineHome } from 'react-icons/ai'
-import { GrServices } from 'react-icons/gr'
-import { NavLink } from 'react-router-dom'
+ 
+
 import Switcher from '../Components/Switcher'
 
 
@@ -12,9 +11,9 @@ export default function Navbar() {
         <div className='absolute left-2/4 z-[999] my-4 flex w-full max-w-screen-2xl -translate-x-2/4 flex-wrap items-center px-4 lg:fixed undefined'>
       <nav className='block w-full max-w-screen-2xl rounded-xl px-8 backdrop-saturate-200
        backdrop-blur-2xl bg-opacity-80 border border-white/80
-       text-white dark:text-black py-4 pl-6 pr-5 lg:py-2 shadow-2xl shadow-blue-gray-500/10'>
+       text-white dark:text-black py-4 pl-6 pr-5 lg:py-2 shadow-2xl shadow-blue-900'>
         <div className='flex w-full items-center !justify-between text-black dark:text-white undefined'>
-          <a href="/" className='py-2.375 text-size-sm mr-4 whitespace-nowrap text-inherit lg:ml-0'>
+          <a href="/" className='py-2.375 text-size-4xl font-semibold mr-4 whitespace-nowrap text-inherit lg:ml-0'>
             Mareer Digital Agency
           </a>
           <button className='relative middle none font-sans font-medium text-center uppercase transition-all
@@ -29,31 +28,26 @@ export default function Navbar() {
             <ul className=' mb-0 flex list-none flex-col gap-2 pl-0 text-inherit transition-all lg:ml-auto lg:flex-row lg:gap-4'>
                 <i aria-expanded="false">
                 <span className='flex items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current lg:px-2 cursor-pointer'>
-                  <i className='mr-2  text-lg font-semibold'><AiOutlineHome  /></i>
                   <span className='font-semibold not-italic'>Home</span>
                 </span>
                    </i> 
               <i aria-expanded="false">
                 <span className='flex items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current lg:px-2 cursor-pointer'>
-                  <i className='mr-2  text-lg font-semibold'><GrServices /></i>
                   <span className='font-semibold not-italic'>Services</span>
                 </span>
               </i>
                <i aria-expanded="false">
                 <span className='flex items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current lg:px-2 cursor-pointer'>
-                  <i className='mr-2  text-lg font-semibold'><GrServices /></i>
                   <span className='font-semibold not-italic'>Our Team</span>
                 </span>
               </i>
                <i aria-expanded="false">
                 <span className='flex items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current lg:px-2 cursor-pointer'>
-                  <i className='mr-2  text-lg font-semibold'><GrServices /></i>
                   <span className='font-semibold not-italic'>About</span>
                 </span>
                             </i>
                              <i aria-expanded="false">
                 <span className='flex items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current lg:px-2 cursor-pointer'>
-                  <i className='mr-2  text-lg font-semibold'><GrServices className='text-white dark:text-black' /></i>
                   <span className='font-semibold not-italic'>Contact Us</span>
                 </span>
               </i>

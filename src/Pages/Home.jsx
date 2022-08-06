@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react'
+import { FcGoogle} from 'react-icons/fc'
 import sideImg from '../Assets/img/bg.png'
 
 // const image = {
@@ -25,7 +26,7 @@ const Home = () => {
   
   return (
     <main className='relative'>
-    <div className="h-screen min-h-screen bg-cover bg-[#FFF2AD] dark:bg-primary-dark bg-center bg-no-repeat" >
+    <div className="h-screen min-h-screen bg-cover bg-[#FFEA7D] dark:bg-primary-dark bg-center bg-no-repeat" >
       <div className='container mx-auto px-4'>
         <div className='flex flex-wrap items-center justify-between'>
           <div className='mt-48 w-full px-4 md:w-8/12 lg:mt-36 lg:w-5/12'>
@@ -58,9 +59,194 @@ const Home = () => {
        </div>
         </div>
       </div>
-      <div className='relative flex flex-col bg-clip-border rounded-xl text-gray-700 mx-6 -mt-20 bg-white md:mx-12 md:-mt-48'>
-        
-    </div>
+      <div className='relative flex flex-col bg-clip-border rounded-xl text-gray-700 mx-6 -mt-64 bg-white dark:bg-gray-600 md:mx-12 md:-mt-48'>
+        <div className='container z-20 mx-auto px-4'>
+          <section className='py-10 lg:py-20'> 
+            <div className='mx-auto mb-24 w-full text-center md:w-3/4 lg:w-1/2' >
+              <div className='block antialiased font-sans text-4xl leading-[1.3] mb-2 font-semibold tracking-normal text-[#1A237E]'>
+                We Make Things Look Good  
+              </div>
+              <p className='block antialiased font-sans mb-2 text-lg font-light text-[#1A237E]/60'>
+           We Can Make your Busines More Profitable And More Customers 
+              </p>
+            </div>
+            <div className='flex flex-row flex-wrap content-center'>
+              <div className='mb-12 w-full max-w-full px-3 sm:w-1/2 sm:flex-none lg:mb-0 xl:mb-0 xl:w-1/4'>
+                <div className='relative flex flex-col bg-clip-border 
+                rounded-xl text-gray-700 border border-white/80 bg-white/80 shadow-lg backdrop-blur-2xl backdrop-saturate-200 undefined'>
+                  <div className='relative bg-clip-border overflow-hidden text-gray-700 -mt-6 mx-6 -mb-3 grid h-12 w-12 place-items-center rounded-lg bg-[#1A237E]'>
+                    <i className='relative text-xl text-white'>
+                      <FcGoogle />
+                     </i>
+                  </div>
+                  <div className='p-6 mt-1'>
+                    <h1 className='block antialiased tracking-normal font-sans text-xl font-semibold leading-snug mb-2 text-[#1A237E]'>
+                      Google Services 
+                    </h1>
+                    <p className='block antialiased font-sans text-base leading-relaxed font-light text-[#1A237E]/60'>
+                    The most Importnat Thing Of your busines Is google, Where Every One Can search You
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='mb-12 w-full max-w-full px-3 sm:w-1/2 sm:flex-none lg:mb-0 xl:mb-0 xl:w-1/4'>
+                <div className='relative flex flex-col bg-clip-border 
+                rounded-xl text-gray-700 border border-white/80 bg-white/80 shadow-lg backdrop-blur-2xl backdrop-saturate-200 undefined'>
+                  <div className='relative bg-clip-border overflow-hidden text-gray-700 -mt-6 mx-6 -mb-3 grid h-12 w-12 place-items-center rounded-lg bg-[#1A237E]'>
+                    <i className='relative text-xl text-white'>
+                      <FcGoogle />
+                     </i>
+                  </div>
+                  <div className='p-6 mt-1'>
+                    <h1 className='block antialiased tracking-normal font-sans text-xl font-semibold leading-snug mb-2 text-[#1A237E]'>
+                      Google Services 
+                    </h1>
+                    <p className='block antialiased font-sans text-base leading-relaxed font-light text-[#1A237E]/60'>
+                    The most Importnat Thing Of your busines Is google, Where Every One Can search You
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='mb-12 w-full max-w-full px-3 sm:w-1/2 sm:flex-none lg:mb-0 xl:mb-0 xl:w-1/4'>
+                <div className='relative flex flex-col bg-clip-border 
+                rounded-xl text-gray-700 border border-white/80 bg-white/80 shadow-lg backdrop-blur-2xl backdrop-saturate-200 undefined'>
+                  <div className='relative bg-clip-border overflow-hidden text-gray-700 -mt-6 mx-6 -mb-3 grid h-12 w-12 place-items-center rounded-lg bg-[#1A237E]'>
+                    <i className='relative text-xl text-white'>
+                      <FcGoogle />
+                     </i>
+                  </div>
+                  <div className='p-6 mt-1'>
+                    <h1 className='block antialiased tracking-normal font-sans text-xl font-semibold leading-snug mb-2 text-[#1A237E]'>
+                      Google Services 
+                    </h1>
+                    <p className='block antialiased font-sans text-base leading-relaxed font-light text-[#1A237E]/60'>
+                    The most Importnat Thing Of your busines Is google, Where Every One Can search You
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='mb-12 w-full max-w-full px-3 sm:w-1/2 sm:flex-none lg:mb-0 xl:mb-0 xl:w-1/4'>
+                <div className='relative flex flex-col bg-clip-border 
+                rounded-xl text-gray-700 border border-white/80 bg-white/80 shadow-lg backdrop-blur-2xl backdrop-saturate-200 undefined'>
+                  <div className='relative bg-clip-border overflow-hidden text-gray-700 -mt-6 mx-6 -mb-3 grid h-12 w-12 place-items-center rounded-lg bg-[#1A237E]'>
+                    <i className='relative text-xl text-white'>
+                      <FcGoogle />
+                     </i>
+                  </div>
+                  <div className='p-6 mt-1'>
+                    <h1 className='block antialiased tracking-normal font-sans text-xl font-semibold leading-snug mb-2 text-[#1A237E]'>
+                      Google Services 
+                    </h1>
+                    <p className='block antialiased font-sans text-base leading-relaxed font-light text-[#1A237E]/60'>
+                    The most Importnat Thing Of your busines Is google, Where Every One Can search You
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+                <section className='py-10 lg:py-20'> 
+            <div className='mx-auto mb-24 w-full text-center md:w-3/4 lg:w-1/2' >
+              <div className='block antialiased font-sans text-4xl leading-[1.3] mb-2 font-semibold tracking-normal text-[#1A237E]'>
+                We Make Things Look Good  
+              </div>
+              <p className='block antialiased font-sans mb-2 text-lg font-light text-[#1A237E]/60'>
+           We Can Make your Busines More Profitable And More Customers 
+              </p>
+            </div>
+            <div className='flex flex-row flex-wrap content-center'>
+              <div className='mb-12 w-full max-w-full px-3 sm:w-1/2 sm:flex-none lg:mb-0 xl:mb-0 xl:w-1/4'>
+                <div className='relative flex flex-col bg-clip-border 
+                rounded-xl text-gray-700 border border-white/80 bg-white/80 shadow-lg backdrop-blur-2xl backdrop-saturate-200 undefined'>
+                  <div className='relative bg-clip-border overflow-hidden text-gray-700 -mt-6 mx-6 -mb-3 grid h-12 w-12 place-items-center rounded-lg bg-[#1A237E]'>
+                    <i className='relative text-xl text-white'>
+                      <FcGoogle />
+                     </i>
+                  </div>
+                  <div className='p-6 mt-1'>
+                    <h1 className='block antialiased tracking-normal font-sans text-xl font-semibold leading-snug mb-2 text-[#1A237E]'>
+                      Google Services 
+                    </h1>
+                    <p className='block antialiased font-sans text-base leading-relaxed font-light text-[#1A237E]/60'>
+                    The most Importnat Thing Of your busines Is google, Where Every One Can search You
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='mb-12 w-full max-w-full px-3 sm:w-1/2 sm:flex-none lg:mb-0 xl:mb-0 xl:w-1/4'>
+                <div className='relative flex flex-col bg-clip-border 
+                rounded-xl text-gray-700 border border-white/80 bg-white/80 shadow-lg backdrop-blur-2xl backdrop-saturate-200 undefined'>
+                  <div className='relative bg-clip-border overflow-hidden text-gray-700 -mt-6 mx-6 -mb-3 grid h-12 w-12 place-items-center rounded-lg bg-[#1A237E]'>
+                    <i className='relative text-xl text-white'>
+                      <FcGoogle />
+                     </i>
+                  </div>
+                  <div className='p-6 mt-1'>
+                    <h1 className='block antialiased tracking-normal font-sans text-xl font-semibold leading-snug mb-2 text-[#1A237E]'>
+                      Google Services 
+                    </h1>
+                    <p className='block antialiased font-sans text-base leading-relaxed font-light text-[#1A237E]/60'>
+                    The most Importnat Thing Of your busines Is google, Where Every One Can search You
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='mb-12 w-full max-w-full px-3 sm:w-1/2 sm:flex-none lg:mb-0 xl:mb-0 xl:w-1/4'>
+                <div className='relative flex flex-col bg-clip-border 
+                rounded-xl text-gray-700 border border-white/80 bg-white/80 shadow-lg backdrop-blur-2xl backdrop-saturate-200 undefined'>
+                  <div className='relative bg-clip-border overflow-hidden text-gray-700 -mt-6 mx-6 -mb-3 grid h-12 w-12 place-items-center rounded-lg bg-[#1A237E]'>
+                    <i className='relative text-xl text-white'>
+                      <FcGoogle />
+                     </i>
+                  </div>
+                  <div className='p-6 mt-1'>
+                    <h1 className='block antialiased tracking-normal font-sans text-xl font-semibold leading-snug mb-2 text-[#1A237E]'>
+                      Google Services 
+                    </h1>
+                    <p className='block antialiased font-sans text-base leading-relaxed font-light text-[#1A237E]/60'>
+                    The most Importnat Thing Of your busines Is google, Where Every One Can search You
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='mb-12 w-full max-w-full px-3 sm:w-1/2 sm:flex-none lg:mb-0 xl:mb-0 xl:w-1/4'>
+                <div className='relative flex flex-col bg-clip-border 
+                rounded-xl text-gray-700 border border-white/80 bg-white/80 shadow-lg backdrop-blur-2xl backdrop-saturate-200 undefined'>
+                  <div className='relative bg-clip-border overflow-hidden text-gray-700 -mt-6 mx-6 -mb-3 grid h-12 w-12 place-items-center rounded-lg bg-[#1A237E]'>
+                    <i className='relative text-xl text-white'>
+                      <FcGoogle />
+                     </i>
+                  </div>
+                  <div className='p-6 mt-1'>
+                    <h1 className='block antialiased tracking-normal font-sans text-xl font-semibold leading-snug mb-2 text-[#1A237E]'>
+                      Google Services 
+                    </h1>
+                    <p className='block antialiased font-sans text-base leading-relaxed font-light text-[#1A237E]/60'>
+                    The most Importnat Thing Of your busines Is google, Where Every One Can search You
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className='py-10 md:py-24'>
+            <div className='mx-auto w-full text-center md:w-1/2'> 
+              <h1 className='block antialiased font-sans text-4xl leading-[1.3] mb-2 font-black tracking-normal text-[#1A237E]'> 
+                Trusted Over <br />
+                <span className='antialiased font-sans text-4xl leading-[1.3] bg-clip-text text-transparent bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal'>
+          1K Companies and Organizations
+                </span>
+              </h1>
+              <p className='block antialiased font-sans font-light text-lg text-[#1A237E]/60'>
+             Many Fortune 500 companies, startups, universities and governmental institutions love Our Service.
+              </p>
+            </div>
+            <div className='mb-84'>
+
+            </div>
+          </section>
+   </div>
+      </div>
     </main>
     
 
