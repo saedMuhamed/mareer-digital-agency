@@ -378,7 +378,7 @@ const Home = () => {
                Contact Us 
               </div> 
             </div>
-            <div className="grid grid-rows-2 grid-flow-col bg-[url('/src/Assets/img/dmb.jpg')] rounded-2xl mt-6 gap-4">
+            <div className="grid grid-rows-2 grid-flow-col bg-gradient-to-r from-sky-500 to-indigo-500 rounded-2xl mt-6 gap-4">
               <div className='row-span-2 col-span-2 sm:grid-col-2 items-center '>
             <div className="w-full lg:w-2/3">
       <div className="text-left max-w-xl px-6 ml-44 pb-32">
@@ -407,7 +407,7 @@ const Home = () => {
           onSubmit={(e) => {
             e.preventDefault();
           }}
-          className="max-w-xl m-4 p-6 sm:p-10 bg-primary-dark dark:bg-primary-dark rounded-xl shadow-xl text-left"
+          className="max-w-xl m-4 p-6 sm:p-10 bg-gradient-to-r from-sky-500 to-indigo-500 rounded-xl shadow-xl text-left"
         >
           <p className="font-general-medium text-primary-light dark:text-primary-light text-2xl mb-8">
             Contact Form
@@ -481,7 +481,7 @@ const Home = () => {
             ></textarea>
           </div>
 
-          <div className="font-general-medium w-40 px-4 py-2.5 text-white dark:text-black hover:text-white dark: text-center font-medium tracking-wider bg-primary-dark dark:bg-primary-light hover:bg-primary-dark focus:ring-1 focus:ring-primary-light rounded-lg mt-6 duration-500">
+          <div className="font-general-medium w-40 px-4 py-2.5 text-white dark:text-black hover:text-white dark: text-center font-medium tracking-wider bg-gradient-to-r from-sky-500 to-indigo-500 hover:bg-primary-dark focus:ring-1 focus:ring-primary-light rounded-lg mt-6 duration-500">
             <Button
               title="Send Message"
               type="submit"
