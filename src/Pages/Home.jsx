@@ -193,84 +193,38 @@ const Home = () => {
                 </span>
               </h1>
             </div>
-            <div className='flex flex-row flex-wrap content-center'>
-              <div className='mb-12 w-full max-w-full px-3 sm:w-1/2 sm:flex-none lg:mb-0 xl:mb-0 xl:w-1/4'>
-                <div className='relative flex flex-col bg-clip-border 
-                rounded-xl text-gray-700 border border-white/80 bg-white/80 shadow-lg backdrop-blur-2xl backdrop-saturate-200 undefined'>
-                  <div className='relative bg-clip-border overflow-hidden text-gray-700 -mt-6 mx-6 -mb-3 grid h-12 w-12 place-items-center rounded-lg bg-[#1A237E]'>
-                    <i className='relative text-xl text-white'>
-                      <FcGoogle />
-                     </i>
-                  </div>
-                  <div className='p-6 mt-1'>
-                    <h1 className='block antialiased tracking-normal font-sans text-xl font-semibold leading-snug mb-2 text-[#1A237E]'>
-                      Google Services 
-                    </h1>
-                    <p className='block antialiased font-sans text-base leading-relaxed font-light text-[#1A237E]/60'>
-                    The most Importnat Thing Of your busines Is google, Where Every One Can search You
-                    </p>
-                  </div>
-                </div>
+            <div class="flex items-center justify-center space-x-12">
+   <div class="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
+     <img src={Me}  className='mb-3 w-32 h-32 rounded-full shadow-lg mx-auto' alt="" />
+     <h1 class="text-lg text-gray-700"> John Doe </h1>
+     <h3 class="text-sm text-gray-400 "> Creative Director </h3>
+     <p class="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
               </div>
-              <div className='mb-12 w-full max-w-full px-3 sm:w-1/2 sm:flex-none lg:mb-0 xl:mb-0 xl:w-1/4'>
-                <div className='relative flex flex-col bg-clip-border 
-                rounded-xl text-gray-700 border border-white/80 bg-white/80 shadow-lg backdrop-blur-2xl backdrop-saturate-200 undefined'>
-                  <div className='relative bg-clip-border overflow-hidden text-gray-700 -mt-6 mx-6 -mb-3 grid h-12 w-12 place-items-center rounded-lg bg-[#1A237E]'>
-                    <i className='relative text-xl text-white'>
-                      <FcGoogle />
-                     </i>
-                  </div>
-                  <div className='p-6 mt-1'>
-                    <h1 className='block antialiased tracking-normal font-sans text-xl font-semibold leading-snug mb-2 text-[#1A237E]'>
-                      Google Services 
-                    </h1>
-                    <p className='block antialiased font-sans text-base leading-relaxed font-light text-[#1A237E]/60'>
-                    The most Importnat Thing Of your busines Is google, Where Every One Can search You
-                    </p>
-                  </div>
-                </div>
+               <div class="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
+     <img src={Me}  className='mb-3 w-32 h-32 rounded-full shadow-lg mx-auto' alt="" />
+     <h1 class="text-lg text-gray-700"> John Doe </h1>
+     <h3 class="text-sm text-gray-400 "> Creative Director </h3>
+     <p class="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+     
               </div>
-              <div className='mb-12 w-full max-w-full px-3 sm:w-1/2 sm:flex-none lg:mb-0 xl:mb-0 xl:w-1/4'>
-                <div className='relative flex flex-col bg-clip-border 
-                rounded-xl text-gray-700 border border-white/80 bg-white/80 shadow-lg backdrop-blur-2xl backdrop-saturate-200 undefined'>
-                  <div className='relative bg-clip-border overflow-hidden text-gray-700 -mt-6 mx-6 -mb-3 grid h-12 w-12 place-items-center rounded-lg bg-[#1A237E]'>
-                    <i className='relative text-xl text-white'>
-                      <FcGoogle />
-                     </i>
-                  </div>
-                  <div className='p-6 mt-1'>
-                    <h1 className='block antialiased tracking-normal font-sans text-xl font-semibold leading-snug mb-2 text-[#1A237E]'>
-                      Google Services 
-                    </h1>
-                    <p className='block antialiased font-sans text-base leading-relaxed font-light text-[#1A237E]/60'>
-                    The most Importnat Thing Of your busines Is google, Where Every One Can search You
-                    </p>
-                  </div>
-                </div>
+                     <div class="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
+     <img src={Me}  className='mb-3 w-32 h-32 rounded-full shadow-lg mx-auto' alt="" />
+     <h1 class="text-lg text-gray-700"> John Doe </h1>
+     <h3 class="text-sm text-gray-400 "> Creative Director </h3>
+     <p class="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
               </div>
-              <div className='mb-12 w-full max-w-full px-3 sm:w-1/2 sm:flex-none lg:mb-0 xl:mb-0 xl:w-1/4'>
-                <div className='relative flex flex-col bg-clip-border 
-                rounded-xl text-gray-700 border border-white/80 bg-white/80 shadow-lg backdrop-blur-2xl backdrop-saturate-200 undefined'>
-                  <div className='relative bg-clip-border overflow-hidden text-gray-700 -mt-6 mx-6 -mb-3 grid h-12 w-12 place-items-center rounded-lg bg-[#1A237E]'>
-                    <i className='relative text-xl text-white'>
-                      <FcGoogle />
-                     </i>
-                  </div>
-                  <div className='p-6 mt-1'>
-                    <h1 className='block antialiased tracking-normal font-sans text-xl font-semibold leading-snug mb-2 text-[#1A237E]'>
-                      Google Services 
-                    </h1>
-                    <p className='block antialiased font-sans text-base leading-relaxed font-light text-[#1A237E]/60'>
-                    The most Importnat Thing Of your busines Is google, Where Every One Can search You
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+                     <div class="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
+     <img src={Me}  className='mb-3 w-32 h-32 rounded-full shadow-lg mx-auto' alt="" />
+     <h1 class="text-lg text-gray-700"> John Doe </h1>
+     <h3 class="text-sm text-gray-400 "> Creative Director </h3>
+     <p class="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>  
+   </div>
+   
+ </div>
           </section>
           <section className='pt-12 pb-64'> 
             {/* Team Section */}
-            <div className="container mx-auto px-24 -mb-64 rounded-lg  ">
+            <div className="container mx-auto px-24 -mb-64 -mt-8 rounded-lg  ">
               <div className='flex flex-wrap justify-center text-center '>
                 <div className='w-full lg:w-6/12 px-4'>
                   <h1 className='text-4xl font-semibold mt-12'>
