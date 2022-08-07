@@ -203,6 +203,11 @@ body {
 .font-general-bold-italic {
     font-family: 'GeneralSans-BoldItalic';
 }
+.font-general-LoveFebruary {
+    font-family: 'LoveFebruary';
+    src: ('./fonts/LoveFebruary.otf');
+}
+
 
 .image {
     position:absolute;

@@ -1,4 +1,5 @@
 const colors = require("tailwindcss/colors");
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
@@ -14,6 +15,9 @@ module.exports = {
         "secondary-dark": "#102D44",
         "ternary-dark": "#1E3851",
       },
+      fontFamily: {
+        LoveFebruary: ["LoveFebruary", ...defaultTheme.fontFamily.sans],
+      },
       container: {
         padding: {
           DEFAULT: "1rem",
@@ -24,6 +28,7 @@ module.exports = {
       },
       backgroundImage: {
         "bg-pattern": "url('/src/Assets/img/bg.png')",
+        "bg-pattern2": "url('/src/Assets/img/dmb.jpg')",
       },
     },
   },

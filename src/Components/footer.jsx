@@ -5,7 +5,7 @@ import {AiFillInstagram} from 'react-icons/ai'
 function footer() {
   return (
       <footer className='bg-gray-100  relative z-50 mt- pt-16 pb-32 text-[#1A237E]'>
-          <div className='z-90 relative mx-auto -mt-28 mb-20 w-4/5 rounded-xl md:w-3/5 bg-yellow-900'>
+          <div className="z-90 relative mx-auto -mt-28 mb-20 w-4/5 rounded-xl md:w-3/5 bg-[url('/src/Assets/img/dmb.jpg')]">
               <div className='flex flex-wrap items-center p-5 md:p-10'>
                   <div className='w-full px-4 lg:w-6/12'>
                       <h1 className='block antialiased font-sans text-4xl leading-[1.3] text-white mb-2 font-black tracking-normal'>
@@ -57,7 +57,7 @@ function footer() {
                           Mareer Digital Agency 
                       </h2>
                       <h5 className='block antialiased tracking-normal font-sans text-inherit mt-0 mb-2 text-lg font-normal opacity-60'>
-                          Easy to use React components for Tailwind CSS and Material Design.
+                         Sparks of imagination light up every desing and We Make thing easy. We could make social accounts boost in just day !
                       </h5>
                       <div className='mt-6'>
                           <a href="https://www.facebook.com/sxabo">
@@ -88,9 +88,6 @@ function footer() {
                               </span>
                               <ul className='list-unstyled'>
                                   <li>
-                                      <a href="/" target="_blank" className='block pb-2 text-sm font-normal text-[#1A237E]/60'>Home</a>
-                                  </li>
-                                  <li>
                                       <a href="/" target="_blank" className='block pb-2 text-sm font-normal text-[#1A237E]/60'>About</a>
                                   </li>
                                   <li>
@@ -107,16 +104,13 @@ function footer() {
                               </span>
                                <ul className='list-unstyled'>
                                   <li>
-                                      <a href="/" target="_blank" className='block pb-2 text-sm font-normal text-[#1A237E]/60'>Home</a>
+                                      <a href="/" target="_blank" className='block pb-2 text-sm font-normal text-[#1A237E]/60'>Our Team</a>
                                   </li>
                                   <li>
-                                      <a href="/" target="_blank" className='block pb-2 text-sm font-normal text-[#1A237E]/60'>About</a>
-                                  </li>
-                                  <li>
-                                      <a href="/" target="_blank" className='block pb-2 text-sm font-normal text-[#1A237E]/60'>Blog</a>
+                                      <a href="/" target="_blank" className='block pb-2 text-sm font-normal text-[#1A237E]/60'>jobs</a>
                                   </li> 
                                   <li>
-                                      <a href="/" target="_blank" className='block pb-2 text-sm font-normal text-[#1A237E]/60'>Contact Us</a>
+                                      <a href="/" target="_blank" className='block pb-2 text-sm font-normal text-[#1A237E]/60'>Events</a>
                                   </li>
                               </ul>    
                           </div>
