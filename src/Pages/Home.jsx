@@ -126,6 +126,32 @@ const Home = () => {
                 </div>
               </div>
             </section>
+            <section className='pt-6 pl-2'>
+              <div className='flex flex-wrap items-center justify-center px-2'>
+                <div className='relative mt-10 w-full pl-2 md:w-8/12 lg:mt-0 lg:w-6/12'>
+                    <img src={Meta}  alt="" />
+                </div>
+                <div className='w-full px-4 lg:w-5/12'>
+                  <h1 className='antialiased text-right font-sans text-8xl leading-[1.3] bg-clip-text text-transparent 
+                  bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal uppercase'>    The Meta Apps    
+                  </h1>
+                  <p className='block text-right antialiased font-sans ml-[60px] font-light mb-5 text-lg text-[#1A237E]/60 md:pr-10'>
+                Material Tailwind provides a simple way to customize your button; you can change the colors, fonts, styling, and everything you need.
+                  </p>
+                  <a href="/">
+                    <button className='middle  none font-sans font-bold center uppercase ml-[460px] transition-all disabled:opacity-50 disabled:shadow-none
+                    disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-blue-500 text-white shadow-md shadow-blue-500/20
+                    hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none'>
+                    Get Start 
+                    </button>
+                   
+                  </a>
+                  {/* <span className='font-bold text-left text-xl ml-8'>
+                    Starting $150
+                  </span> */}
+                </div>   
+              </div>
+            </section>
             <section className='pt-2 pl-4'>
               <div className='flex flex-wrap items-center justify-center px-6'>
                 <div className='w-full px-4 lg:w-5/12'>
@@ -151,12 +177,12 @@ const Home = () => {
                     <img src={Meta}  alt="" />
                 </div>
               </div>
-          </section>
+            </section>
           </section>
           
           <section className='py-10 lg:py-20'>   
           {/* Portofolio Section */}  
-              <div className='mx-auto mb-24 -mt- w-full text-center md:w-1/2'> 
+              <div className='mx-auto mb-24 -mt-8 w-full text-center md:w-1/2'> 
               <div className='block antialiased font-sans text-4xl leading-[1.3] mb-2 font-bold tracking-normal text-[#1A237E]'>
                 Portofolio
               </div>
