@@ -4,7 +4,7 @@ import {AiFillInstagram} from 'react-icons/ai'
 
 function footer() {
   return (
-      <footer className='bg-gray-100  relative z-50 mt- pt-16 pb-32 text-[#1A237E]'>
+      <footer className='bg-gray-100  relative z-50 mt-2 pt-16 pb-32 text-[#1A237E]'>
           <div className="z-90 relative mx-auto -mt-28 mb-20 w-4/5 rounded-xl md:w-3/5 bg-[url('/src/Assets/img/dmb.jpg')]">
               <div className='flex flex-wrap items-center p-5 md:p-10'>
                   <div className='w-full px-4 lg:w-6/12'>

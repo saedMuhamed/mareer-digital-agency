@@ -4,6 +4,11 @@ import { FcGoogle} from 'react-icons/fc'
 import sideImg from '../Assets/img/side.svg'
 import Me from '../Assets/img/team1.jpg'
 import Meta from '../Assets/img/meta.svg'
+import EmailM from '../Assets/img/emailMarketing.svg'
+import Desinger from '../Assets/img/Desinger.svg'
+import WebDev from '../Assets/img/WebDev.svg'
+
+
 
 import Button from '../Components/Button'
 import { FiPhone, FiMapPin, FiMail } from "react-icons/fi";
@@ -129,7 +134,7 @@ const Home = () => {
             <section className='pt-6 pl-2'>
               <div className='flex flex-wrap items-center justify-center px-2'>
                 <div className='relative mt-10 w-full pl-2 md:w-8/12 lg:mt-0 lg:w-6/12'>
-                    <img src={Meta}  alt="" />
+                    <img src={Desinger}  alt="" />
                 </div>
                 <div className='w-full px-4 lg:w-5/12'>
                   <h1 className='antialiased text-right font-sans text-8xl leading-[1.3] bg-clip-text text-transparent 
@@ -174,14 +179,14 @@ const Home = () => {
                   </span> */}
                 </div>
                 <div className='relative mt-10 w-full pl-32 md:w-8/12 lg:mt-0 lg:w-6/12'>
-                    <img src={Meta}  alt="" />
+                    <img src={WebDev}  alt="" />
                 </div>
               </div>
             </section>
             <section className='pt-8 pl-2'>
               <div className='flex flex-wrap items-center justify-center px-2'>
                 <div className='relative mt-10 w-full  pr-36 md:w-8/12 lg:mt-0 lg:w-6/12'>
-                    <img src={Meta}  alt="" />
+                    <img src={EmailM}  alt="" />
                 </div>
                 <div className='w-full px-4 lg:w-5/12'>
                   <h1 className='antialiased text-right font-sans text-8xl leading-[1.3] bg-clip-text text-transparent 
