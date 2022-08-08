@@ -133,7 +133,7 @@ const Home = () => {
                 </div>
                 <div className='w-full px-4 lg:w-5/12'>
                   <h1 className='antialiased text-right font-sans text-8xl leading-[1.3] bg-clip-text text-transparent 
-                  bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal uppercase'>    The Meta Apps    
+                  bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal uppercase'>    Graphic Design   
                   </h1>
                   <p className='block text-right antialiased font-sans ml-[60px] font-light mb-5 text-lg text-[#1A237E]/60 md:pr-10'>
                 Material Tailwind provides a simple way to customize your button; you can change the colors, fonts, styling, and everything you need.
@@ -152,11 +152,11 @@ const Home = () => {
                 </div>   
               </div>
             </section>
-            <section className='pt-2 pl-4'>
+            <section className='pt-8 pl-2'>
               <div className='flex flex-wrap items-center justify-center px-6'>
                 <div className='w-full px-4 lg:w-5/12'>
                   <h1 className='antialiased font-sans text-8xl leading-[1.3] bg-clip-text text-transparent 
-                  bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal uppercase'>    The Meta Apps    
+                  bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal uppercase'>    Web Development  
                   </h1>
                   <p className='block antialiased font-sans font-light mb-5 text-lg text-[#1A237E]/60 md:pr-10'>
                 Material Tailwind provides a simple way to customize your button; you can change the colors, fonts, styling, and everything you need.
@@ -173,11 +173,38 @@ const Home = () => {
                     Starting $150
                   </span> */}
                 </div>
-                <div className='relative mt-10 w-full pl-2 md:w-8/12 lg:mt-0 lg:w-6/12'>
+                <div className='relative mt-10 w-full pl-32 md:w-8/12 lg:mt-0 lg:w-6/12'>
                     <img src={Meta}  alt="" />
                 </div>
               </div>
             </section>
+            <section className='pt-8 pl-2'>
+              <div className='flex flex-wrap items-center justify-center px-2'>
+                <div className='relative mt-10 w-full  pr-36 md:w-8/12 lg:mt-0 lg:w-6/12'>
+                    <img src={Meta}  alt="" />
+                </div>
+                <div className='w-full px-4 lg:w-5/12'>
+                  <h1 className='antialiased text-right font-sans text-8xl leading-[1.3] bg-clip-text text-transparent 
+                  bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal uppercase'>    Email Marketing  
+                  </h1>
+                  <p className='block text-right antialiased font-sans ml-[60px] font-light mb-5 text-lg text-[#1A237E]/60 md:pr-10'>
+                Material Tailwind provides a simple way to customize your button; you can change the colors, fonts, styling, and everything you need.
+                  </p>
+                  <a href="/">
+                    <button className='middle  none font-sans font-bold center uppercase ml-[460px] transition-all disabled:opacity-50 disabled:shadow-none
+                    disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-blue-500 text-white shadow-md shadow-blue-500/20
+                    hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none'>
+                    Get Start 
+                    </button>
+                   
+                  </a>
+                  {/* <span className='font-bold text-left text-xl ml-8'>
+                    Starting $150
+                  </span> */}
+                </div>   
+              </div>
+            </section>
+            
           </section>
           
           <section className='py-10 lg:py-20'>   
@@ -194,30 +221,109 @@ const Home = () => {
               </h1>
             </div>
             <div class="flex items-center justify-center space-x-12">
-   <div class="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
+   <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
      <img src={Me}  className='mb-3 w-32 h-32 rounded-full shadow-lg mx-auto' alt="" />
      <h1 class="text-lg text-gray-700"> John Doe </h1>
      <h3 class="text-sm text-gray-400 "> Creative Director </h3>
      <p class="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              <div className='mt-8'>
+                       <a href="https://www.facebook.com/sxabo">
+                              <i className='text-light-blue-400 font-lg text-2xl  align-center mr-2 inline-block items-center justify-center 
+                              rounded-full bg-white p-3 text-center shadow-lg outline-none focus:outline-none'>
+                                 <BsFacebook />
+                              </i>
+                      </a>
+                       <a href="https://www.facebook.com/sxabo">
+                              <i className='text-light-blue-400 font-lg text-2xl  align-center mr-2 inline-block items-center justify-center 
+                              rounded-full bg-white p-3 text-center shadow-lg outline-none focus:outline-none'>
+                                 <BsInstagram />
+                              </i>
+                      </a>
+                       <a href="https://www.facebook.com/sxabo">
+                              <i className='text-light-blue-400 font-lg text-2xl  align-center mr-2 inline-block items-center justify-center 
+                              rounded-full bg-white p-3 text-center shadow-lg outline-none focus:outline-none'>
+                                 <BsTwitter />
+                              </i>
+                          </a>
+                    </div>
               </div>
-               <div class="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
+               <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
      <img src={Me}  className='mb-3 w-32 h-32 rounded-full shadow-lg mx-auto' alt="" />
      <h1 class="text-lg text-gray-700"> John Doe </h1>
      <h3 class="text-sm text-gray-400 "> Creative Director </h3>
      <p class="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-     
+      <div className='mt-8'>
+                       <a href="https://www.facebook.com/sxabo">
+                              <i className='text-light-blue-400 font-lg text-2xl  align-center mr-2 inline-block items-center justify-center 
+                              rounded-full bg-white p-3 text-center shadow-lg outline-none focus:outline-none'>
+                                 <BsFacebook />
+                              </i>
+                      </a>
+                       <a href="https://www.facebook.com/sxabo">
+                              <i className='text-light-blue-400 font-lg text-2xl  align-center mr-2 inline-block items-center justify-center 
+                              rounded-full bg-white p-3 text-center shadow-lg outline-none focus:outline-none'>
+                                 <BsInstagram />
+                              </i>
+                      </a>
+                       <a href="https://www.facebook.com/sxabo">
+                              <i className='text-light-blue-400 font-lg text-2xl  align-center mr-2 inline-block items-center justify-center 
+                              rounded-full bg-white p-3 text-center shadow-lg outline-none focus:outline-none'>
+                                 <BsTwitter />
+                              </i>
+                          </a>
+                    </div>
               </div>
-                     <div class="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
+                     <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
      <img src={Me}  className='mb-3 w-32 h-32 rounded-full shadow-lg mx-auto' alt="" />
      <h1 class="text-lg text-gray-700"> John Doe </h1>
      <h3 class="text-sm text-gray-400 "> Creative Director </h3>
      <p class="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              <div className='mt-8'>
+                       <a href="https://www.facebook.com/sxabo">
+                              <i className='text-light-blue-400 font-lg text-2xl  align-center mr-2 inline-block items-center justify-center 
+                              rounded-full bg-white p-3 text-center shadow-lg outline-none focus:outline-none'>
+                                 <BsFacebook />
+                              </i>
+                      </a>
+                       <a href="https://www.facebook.com/sxabo">
+                              <i className='text-light-blue-400 font-lg text-2xl  align-center mr-2 inline-block items-center justify-center 
+                              rounded-full bg-white p-3 text-center shadow-lg outline-none focus:outline-none'>
+                                 <BsInstagram />
+                              </i>
+                      </a>
+                       <a href="https://www.facebook.com/sxabo">
+                              <i className='text-light-blue-400 font-lg text-2xl  align-center mr-2 inline-block items-center justify-center 
+                              rounded-full bg-white p-3 text-center shadow-lg outline-none focus:outline-none'>
+                                 <BsTwitter />
+                              </i>
+                          </a>
+                    </div>
               </div>
-                     <div class="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
+                     <div class="bg-gradient-to-r from-yellow-400 via-red-500 to-orange-600 font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
      <img src={Me}  className='mb-3 w-32 h-32 rounded-full shadow-lg mx-auto' alt="" />
-     <h1 class="text-lg text-gray-700"> John Doe </h1>
-     <h3 class="text-sm text-gray-400 "> Creative Director </h3>
-     <p class="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>  
+     <h1 class="text-lg text-gray-100"> John Doe </h1>
+     <h3 class="text-sm text-gray-200 "> Creative Director </h3>
+                <p class="text-xs text-gray-200 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> 
+     <div className='mt-8'>
+                       <a href="https://www.facebook.com/sxabo">
+                              <i className='text-light-blue-400 font-lg text-2xl  align-center mr-2 inline-block items-center justify-center 
+                              rounded-full bg-white p-3 text-center shadow-lg outline-none focus:outline-none'>
+                                 <BsFacebook />
+                              </i>
+                      </a>
+                       <a href="https://www.facebook.com/sxabo">
+                              <i className='text-light-blue-400 font-lg text-2xl  align-center mr-2 inline-block items-center justify-center 
+                              rounded-full bg-white p-3 text-center shadow-lg outline-none focus:outline-none'>
+                                 <BsInstagram />
+                              </i>
+                      </a>
+                       <a href="https://www.facebook.com/sxabo">
+                              <i className='text-light-blue-400 font-lg text-2xl  align-center mr-2 inline-block items-center justify-center 
+                              rounded-full bg-gradient-to-r from-yellow-400 via-red-500 to-orange-600 text-white p-3 text-center shadow-lg outline-none focus:outline-none'>
+                                 <BsTwitter />
+                              </i>
+                          </a>
+                    </div>           
    </div>
    
  </div>
