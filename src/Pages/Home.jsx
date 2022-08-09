@@ -57,42 +57,39 @@ const Home = () => {
   
   return (
     <main className='relative'>
-    <div className="h-screen min-h-screen bg-cover bg-[#FFEA7D] dark:bg-primary-dark bg-center bg-no-repeat" >
-      <div className='container mx-auto px-8 sm:px-4'>
-        <div className='flex flex-wrap items-center justify-between'>
-          <div className='-mb-32 w-full  px-4 md:w-8/12 lg:mt-36 lg:w-5/12'>
-            <h1 className='block antialiased font-sans text-6xl  mb-6 leading-tight  font-black tracking-normal text-black dark:text-[#FFF2AD]'>
+    <div className="h-screen min-h-screen bg-cover bg-url('/src/Assets/img/100.png')   dark:bg-primary-dark bg-center bg-no-repeat" >
+      <div className='container mx-auto  py-2 mr-2 sm:px-4 sm:justify-center'>
+        <div className='flex flex-row items-center space-x-2'>
+          <div className='-mb-24 w-full px-4 md:w-8/12 lg:mt-36 lg:w-5/12 sm:mt-32 sm:text-center lg:text-left '>
+            <h1 className='block antialiased font-sans text-6xl  mb-2 leading-tight sm:mb-2 font-black tracking-normal text-black dark:text-[#FFF2AD]'>
            SMART IDEAS YOU ARE LOOKING FOR HERE
               </h1>
-              <p className='block antialiased font-sans text-xl  font-semibold mb-6 text-black dark:text-[#FFF2AD] lg:pr-12'>
+              <p className='block antialiased font-sans text-xl font-semibold mb-6 text-black dark:text-[#FFF2AD] lg:pr-12'>
            Our Customers demand by making them Satisfied with growing their busines 
               </p>
-              <div className='flex flex-col-reverse gap-2 lg:flex-row'>
+              <div className='flex flex-col-reverse gap-2 lg:flex-row '> 
                 <a href="contactus">
-                  <button className='middle none font-sans font-bold center uppercase transition-all disabled:opacity-50 disabled:shadow-none
-                  disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gradient-to-tr from-blue-600 to-blue-400
-                   text-white shadow-md shadow-blue-500/20 hover:shadow-lg
-                    hover:shadow-blue-500/40 active:opacity-[0.85] h-full w-full'>
+                  <button className='middle none font-sans font-bold center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none 
+                  text-xs py-3 px-6 rounded-lg bg-gradient-to-tr from-blue-600 to-blue-400 text-white shadow-md shadow-blue-500/20 hover:shadow-lg hover:shadow-blue-500/40
+                  active:opacity-[0.85] h-full w-full'>
                     Get Started
                   </button>
                   </a>
-                  <div className='flex rounded-xl border border-white/80 bg-white/80 py-2.5 px-5
-                   text-[#1A237E] shadow-2xl shadow-blue-gray-500/20 backdrop-blur-2xl backdrop-saturate-200'>
-                    
-                  <AiOutlinePlayCircle className='text-xl font-semibold' />   <a href='https://fb.watch/eLFYxoCiFK/' className='font-semibold pl-4'>
+                  <div className='flex rounded-lg border border-gray-100 bg-white/80 py-2.5 px-5 text-[#1A237E] shadow-2xl shadow-blue-gray-500/20 backdrop-blur-2xl backdrop-saturate-200'>   
+                  <AiOutlinePlayCircle className='text-xl font-semibold  ' />   <a href='https://fb.watch/eLFYxoCiFK/' className='font-semibold pl-4 '>
                       Watch Video
                     </a>
                  
                   </div>  
               </div>
             </div>
-            <div className=' w-full px-4 md:w-8/12 lg:mt-44 lg:w-[800px]'>
+            <div className=' w-full px-4 mt-56 lg:mt-44 lg:w-[800px] md:w-[800px] sm:w-[1000px] sm:rounded-xl'>
            <img src={sideImg} className=' h-full max-w-full ' alt="" />
             </div>
        </div>
         </div>
       </div>
-      <div className='relative flex flex-col bg-clip-border  rounded-xl text-gray-700 mx-6 mt-44  bg-white dark:bg-gray-600 md:mx-12 md:-mt-8 sm:mt-4'>
+      <div className='relative flex flex-col bg-clip-border  rounded-xl text-gray-700 mx-6 mt-44  bg-white dark:bg-gray-600 md:mx-12 md:-mt-8 sm:mt-56'>
         <div className='container z-20 mx-auto px-2'>
          
           <section className='py-10 lg:py-20'> 
@@ -106,7 +103,7 @@ const Home = () => {
               </p>
             </div>
             <section className='pt-2 pl-4'>
-              <div className='flex flex-wrap items-center justify-center px-6'>
+              <div className='flex flex-wrap  items-center  justify-center px-6'>
                 <div className='w-full px-4 lg:w-5/12'>
                   <h1 className='antialiased font-sans text-8xl leading-[1.3] bg-clip-text text-transparent 
                   bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal uppercase'>    The Meta Apps    
@@ -132,7 +129,7 @@ const Home = () => {
               </div>
             </section>
             <section className='pt-6 pl-2'>
-              <div className='flex flex-wrap items-center justify-center px-2'>
+              <div className='flex flex-wrap sm:flex-col-reverse items-center justify-center px-2'>
                 <div className='relative mt-10 w-full pl-2 md:w-8/12 lg:mt-0 lg:w-6/12'>
                     <img src={Desinger}  alt="" />
                 </div>
@@ -179,20 +176,21 @@ const Home = () => {
                   </span> */}
                 </div>
                 <div className='relative mt-10 w-full pl-32 md:w-8/12 lg:mt-0 lg:w-6/12'>
-                    <img src={WebDev}  alt="" />
+                    <img src={WebDev} className='flex-shrink-0'  alt="" />
                 </div>
               </div>
             </section>
             <section className='pt-8 pl-2'>
-              <div className='flex flex-wrap items-center justify-center px-2'>
-                <div className='relative mt-10 w-full  pr-36 md:w-8/12 lg:mt-0 lg:w-6/12'>
-                    <img src={EmailM}  alt="" />
+              <div className='flex relative flex-row items-center justify-center px-2'>
+                <div className=' mt-10 w-full px-8  md:w-6/12 lg:mt-0 lg:w-6/12'>
+                    <img src={EmailM} className='flex-shrink'  alt="" />
                 </div>
-                <div className='w-full px-4 lg:w-5/12'>
-                  <h1 className='antialiased text-right font-sans text-8xl leading-[1.3] bg-clip-text text-transparent 
+                
+                <div className=' w-full px- lg:w-6/12'>
+                  <h1 className='antialiased  text-center lg:text-left font-sans text-7xl leading-[1.3] bg-clip-text text-transparent 
                   bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal uppercase'>    Email Marketing  
                   </h1>
-                  <p className='block text-right antialiased font-sans ml-[60px] font-light mb-5 text-lg text-[#1A237E]/60 md:pr-10'>
+                  <p className='block sm:text-center lg:text-left antialiased font-sans font-light mb-5 text-lg text-[#1A237E]/60 md:pr-10'>
                 Material Tailwind provides a simple way to customize your button; you can change the colors, fonts, styling, and everything you need.
                   </p>
                   <a href="/">
@@ -225,7 +223,7 @@ const Home = () => {
                 </span>
               </h1>
             </div>
-            <div class="flex items-center justify-center space-x-12">
+            <div class="flex flex-wrap lg:flex-nowrap items-center justify-center space-x-12 md:flex md:flex-wrap sm:flex sm:flex-wrap sm:justify-items-center sm:space-y-2">
    <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
      <img src={Me}  className='mb-3 w-32 h-32 rounded-full shadow-lg mx-auto' alt="" />
      <h1 class="text-lg text-gray-700"> John Doe </h1>

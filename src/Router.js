@@ -7,7 +7,7 @@ import "./App.css";
 const Router = () => {
   return (
     <BrowserRouter>
-      <div className=" bg-gray-200 dark:bg-primary-dark transition duration-300">
+      <div className=" bg-white dark:bg-primary-dark transition duration-300">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
