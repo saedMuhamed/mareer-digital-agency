@@ -83,19 +83,17 @@ const Home = () => {
                   </button>  
               </div>
             </div>
-            <div className='hidden w-full sm:w-12/12 sm:mt-32 sm:mr-6 sm:-mb-6 sm:justify-center mt-56 lg:mt-44 lg:w-[800px] md:w-[800px] sm:rounded-xl'>
-           <img src={sideImg} className=' h-full max-w-full ' alt="" />
-            </div>
-            <div className='hidden w-full sm:w-12/12 sm:mt-32 sm:mr-6 sm:-mb-6 sm:justify-center mt-56 lg:mt-44 lg:w-[800px] md:w-[800px] sm:rounded-xl'>
+            
+            <div className='invisible lg:visible sm:invisible md:visible w-full sm:w-12/12 sm:mt-32 sm:mr-6 sm:-mb-6 sm:justify-center mt-56 lg:mt-44 lg:w-[800px] md:w-[800px] sm:rounded-xl'>
            <img src={sideImg} className=' h-full max-w-full ' alt="" />
             </div>
        </div>
         </div>
       </div>
-      <div className='relative flex flex-col bg-clip-border  rounded-xl text-gray-500 mx-6 bg-transparent dark:bg-gray-600 md:mx-12 md:-mt-8 sm:mt-2'>
+      <div className='relative flex flex-col bg-clip-border -mt-12  rounded-xl text-gray-500 mx-6 bg-transparent dark:bg-gray-600 md:mx-12 md:-mt-8 sm:mt-2'>
         <div className='container z-20 mx-auto px-2 '>
          
-          <section className='py-10 lg:py-20 sm:space-y-12 '> 
+          <section className='py-6 lg:py-20 sm:space-y-12 '> 
             {/* Services Sections */}
             <div className='mx-auto mb-4 sm:mb-2 w-full text-center md:w-3/4 lg:w-1/2' >
               <div className='block antialiased font-sans text-4xl leading-[1.3] mb-2 font-bold tracking-normal bg-clip-text text-transparent 
@@ -106,7 +104,8 @@ const Home = () => {
             <section className='pt-2 pl-4 sm:items-center sm:justify-center sm:px-0 '>
               <div className='flex flex-wrap  items-center px-0 sm:px-2'>
                 <div className='w-full   lg:w-5/12 sm:items-center sm:px-2 sm:text-center'>
-                  <h1 className='justify-center font-sans font-medium mb-2 text-2xl text-center text-primary-dark md:pr-10 '>   The Meta Apps    
+                  <h1 className='justify-center font-sans font-bold mb-2 text-2xl text-center bg-clip-text text-transparent 
+                  bg-gradient-to-tr from-blue-600 to-blue-400 md:pr-10 '>   The Meta Apps    
                   </h1>
                   <p className='justify-center font-sans font-medium mb-2 text-lg text-center text-primary-dark md:pr-10'>
                 Material Tailwind provides a simple way to customize your button; you can change the colors, fonts, styling, and everything you need.
@@ -126,18 +125,19 @@ const Home = () => {
           <section className='py-10 lg:py-20'>   
           {/* Portofolio Section */}  
               <div className='mx-auto mb-24 -mt-8 w-full text-center md:w-1/2'> 
-              <div className='block antialiased font-sans text-4xl leading-[1.3] mb-2 font-bold tracking-normal text-[#1A237E]'>
+              <div className='block antialiased font-sans text-4xl leading-[1.3] mb-2 font-bold tracking-normal bg-clip-text text-transparent 
+                  bg-gradient-to-tr from-blue-600 to-blue-400'>
                 Portofolio
               </div>
-              <h1 className='block antialiased font-sans text-4xl leading-[1.3] mb-2 font-semibold tracking-normal text-[#1A237E]'> 
+              <h1 className='block antialiased font-sans text-2xl leading-[1.3] mb-2 font-semibold tracking-normal text-[#1A237E]'> 
                 Trusted Over <br />
-                <span className='antialiased font-sans text-4xl leading-[1.3] bg-clip-text text-transparent bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal'>
+                <span className='antialiased font-sans text-2xl leading-[1.3] bg-clip-text text-transparent bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal'>
           More 30 Companies and Organizations around Somaliland and Somalia
                 </span>
               </h1>
             </div>
             <div class="flex flex-wrap lg:flex-nowrap items-center justify-center space-x-12 md:flex md:flex-wrap sm:flex sm:flex-wrap sm:justify-items-center sm:space-y-2">
-   <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
+   <div class="font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
      <img src={Me}  className='mb-3 w-32 h-32 rounded-full shadow-lg mx-auto' alt="" />
      <h1 class="text-lg text-gray-700"> John Doe </h1>
      <h3 class="text-sm text-gray-400 "> Creative Director </h3>
