@@ -136,9 +136,9 @@ const Home = () => {
                 </span>
               </h1>
             </div>
-            <div class="flex flex-wrap lg:flex-nowrap items-center justify-center space-x-12 md:flex md:flex-wrap sm:flex sm:flex-wrap sm:justify-items-center sm:space-y-2">
-   <div class="font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
-     <img src={Me}  className='mb-3 w-32 h-32 rounded-full shadow-lg mx-auto' alt="" />
+            <div class="flex flex-wrap lg:flex-nowrap items-center justify-center gap-y-2 md:flex md:flex-wrap sm:flex sm:flex-wrap sm:justify-items-center sm:space-y-2">
+   <div class="font-semibold text-center rounded-3xl shadow-sm p-10 max-w-xs">
+     <img src={Me}  className='mb-3 w-32 h-32 mt-2 rounded-full shadow-lg mx-auto' alt="" />
      <h1 class="text-lg text-gray-700"> John Doe </h1>
      <h3 class="text-sm text-gray-400 "> Creative Director </h3>
      <p class="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
