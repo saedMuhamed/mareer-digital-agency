@@ -99,17 +99,14 @@ const Home = () => {
                   bg-gradient-to-tr from-blue-600 to-blue-400'>
                 Our Services 
               </div>
-              <p className='block antialiased font-medium text-2xl mb-4  text-primary-dark'>
-           We Can Make your Busines More Profitable And More Customers 
-              </p>
             </div>
             <section className='pt-2 pl-4 sm:items-center sm:justify-center sm:px-0 '>
               <div className='flex flex-wrap  items-center px-0 sm:px-2'>
                 <div className='w-full  lg:w-5/12 sm:items-center sm:px-2 sm:text-center'>
-                  <h1 className='antialiased font-sans text-2xl sm:text-2xl sm:text-center leading-[1.3] bg-clip-text text-transparent 
-                  bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal  '>    The Meta Apps    
+                  <h1 className='antialiased font-sans text-2xl text-center sm:text-2xl sm:text-center leading-[1.3] bg-clip-text text-transparent 
+                  bg-gradient-to-tr from-red-600 to-primary-dark inline-block font-black tracking-normal  '>    The Meta Apps    
                   </h1>
-                  <p className='block antialiased font-sans font-medium mb-5 text-lg text-primary-dark md:pr-10'>
+                  <p className='block antialiased font-sans font-medium mb-5 text-lg text-center text-primary-dark md:pr-10'>
                 Material Tailwind provides a simple way to customize your button; you can change the colors, fonts, styling, and everything you need.
                   </p>
                  
@@ -122,25 +119,6 @@ const Home = () => {
                 </div>
               </div>
             </section>
-            <section className='pt-2 pl-4 sm:items-center sm:justify-center sm:px-0'>
-              <div className='flex flex-wrap  items-center  px-6 sm:px-2'>
-                <div className='w-full px-4 lg:w-5/12 sm:items-center sm:px-2 sm:text-center'>
-                  <h1 className='antialiased font-sans text-8xl sm:text-2xl sm:text-center leading-[1.3] bg-clip-text text-transparent 
-                  bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal  '>    The Meta Apps    
-                  </h1>
-                  <p className='block antialiased font-sans font-medium mb-5 text-lg text-primary-dark md:pr-10'>
-                Material Tailwind provides a simple way to customize your button; you can change the colors, fonts, styling, and everything you need.
-                  </p>
-                  {/* <span className='font-bold text-left text-xl ml-8'>
-                    Starting $150
-                  </span> */}
-                </div>
-                <div className='relative mt-10 w-full pl-2 md:w-8/12 lg:mt-0 lg:w-6/12'>
-                    <img src={Meta}  alt="" />
-                </div>
-              </div>
-            </section>
-            
           </section>
           
           <section className='py-10 lg:py-20'>   
