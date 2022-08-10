@@ -60,7 +60,7 @@ const Home = () => {
     <div className="h-screen min-h-screen bg-cover bg-url('/src/Assets/img/100.png')   dark:bg-primary-dark bg-center bg-no-repeat" >
       <div className='container mx-auto  py-2 mr-2 sm:px-4 sm:justify-center'>
         <div className='flex flex-row items-center sm:flex sm:flex-col space-x-2'>
-          <div className='-mb-32 mt-44 w-full px-4 md:w-8/12 lg:mt-36 lg:w-5/12 sm:mt-64 sm:text-center lg:text-left '>
+          <div className='-mb-32 mt-36 w-full px-4 md:w-8/12 lg:mt-36 lg:w-5/12 sm:mt-64 sm:text-center lg:text-left '>
             <h1 className='block antialiased font-sans text-6xl  mb-2 leading-tight sm:mb-2 font-black tracking-normal text-black dark:text-[#FFF2AD]'>
            SMART IDEAS YOU ARE LOOKING FOR HERE
               </h1>
