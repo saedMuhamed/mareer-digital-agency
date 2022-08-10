@@ -131,7 +131,7 @@ const Home = () => {
               </div>
               <h1 className='block antialiased font-sans text-2xl leading-[1.3] mb-2 font-semibold tracking-normal text-[#1A237E]'> 
                 Trusted Over <br />
-                <span className='antialiased font-sans text-2xl leading-[1.3] bg-clip-text text-transparent bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal'>
+                <span className='antialiased font-sans text-2xl leading-[1.3] bg-clip-text text-transparent bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-bold tracking-normal'>
           More 30 Companies and Organizations around Somaliland and Somalia
                 </span>
               </h1>
