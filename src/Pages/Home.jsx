@@ -86,15 +86,18 @@ const Home = () => {
             <div className='hidden w-full sm:w-12/12 sm:mt-32 sm:mr-6 sm:-mb-6 sm:justify-center mt-56 lg:mt-44 lg:w-[800px] md:w-[800px] sm:rounded-xl'>
            <img src={sideImg} className=' h-full max-w-full ' alt="" />
             </div>
+            <div className='hidden w-full sm:w-12/12 sm:mt-32 sm:mr-6 sm:-mb-6 sm:justify-center mt-56 lg:mt-44 lg:w-[800px] md:w-[800px] sm:rounded-xl'>
+           <img src={sideImg} className=' h-full max-w-full ' alt="" />
+            </div>
        </div>
         </div>
       </div>
-      <div className='relative flex flex-col bg-clip-border  rounded-xl text-gray-500 mx-6 mt-4  bg-transparent dark:bg-gray-600 md:mx-12 md:-mt-8 sm:mt-24'>
+      <div className='relative flex flex-col bg-clip-border  rounded-xl text-gray-500 mx-6 bg-transparent dark:bg-gray-600 md:mx-12 md:-mt-8 sm:mt-2'>
         <div className='container z-20 mx-auto px-2 '>
          
           <section className='py-10 lg:py-20 sm:space-y-12 '> 
             {/* Services Sections */}
-            <div className='mx-auto mt-2 mb-4 sm:mb-2 w-full text-center md:w-3/4 lg:w-1/2' >
+            <div className='mx-auto mb-4 sm:mb-2 w-full text-center md:w-3/4 lg:w-1/2' >
               <div className='block antialiased font-sans text-4xl leading-[1.3] mb-2 font-bold tracking-normal bg-clip-text text-transparent 
                   bg-gradient-to-tr from-blue-600 to-blue-400'>
                 Our Services 
@@ -102,11 +105,10 @@ const Home = () => {
             </div>
             <section className='pt-2 pl-4 sm:items-center sm:justify-center sm:px-0 '>
               <div className='flex flex-wrap  items-center px-0 sm:px-2'>
-                <div className='w-full  lg:w-5/12 sm:items-center sm:px-2 sm:text-center'>
-                  <h1 className='antialiased font-sans text-2xl text-center sm:text-2xl sm:text-center leading-[1.3] bg-clip-text text-transparent 
-                  bg-gradient-to-tr from-blue-600 to-blue-300 inline-block font-black tracking-normal  '>    The Meta Apps    
+                <div className='w-full   lg:w-5/12 sm:items-center sm:px-2 sm:text-center'>
+                  <h1 className='justify-center font-sans font-medium mb-2 text-2xl text-center text-primary-dark md:pr-10 '>   The Meta Apps    
                   </h1>
-                  <p className='block antialiased font-sans font-medium mb-5 text-lg text-center text-primary-dark md:pr-10'>
+                  <p className='justify-center font-sans font-medium mb-2 text-lg text-center text-primary-dark md:pr-10'>
                 Material Tailwind provides a simple way to customize your button; you can change the colors, fonts, styling, and everything you need.
                   </p>
                  
@@ -114,7 +116,7 @@ const Home = () => {
                     Starting $150
                   </span> */}
                 </div>
-                <div className='relative mt-10 w-full  md:w-8/12 lg:mt-0 lg:w-6/12'>
+                <div className='relative mt-6 w-full  md:w-8/12 lg:mt-0 lg:w-6/12'>
                     <img src={Meta}  alt="" />
                 </div>
               </div>
