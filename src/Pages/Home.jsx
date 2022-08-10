@@ -59,66 +59,60 @@ const Home = () => {
     <main className='relative'>
     <div className="h-screen min-h-screen bg-cover bg-url('/src/Assets/img/100.png')   dark:bg-primary-dark bg-center bg-no-repeat" >
       <div className='container mx-auto  py-2 mr-2 sm:px-4 sm:justify-center'>
-        <div className='flex flex-row items-center space-x-2'>
-          <div className='-mb-24 w-full px-4 md:w-8/12 lg:mt-36 lg:w-5/12 sm:mt-32 sm:text-center lg:text-left '>
+        <div className='flex flex-row items-center sm:flex sm:flex-col space-x-2'>
+          <div className='-mb-32 mt-44 w-full px-4 md:w-8/12 lg:mt-36 lg:w-5/12 sm:mt-64 sm:text-center lg:text-left '>
             <h1 className='block antialiased font-sans text-6xl  mb-2 leading-tight sm:mb-2 font-black tracking-normal text-black dark:text-[#FFF2AD]'>
            SMART IDEAS YOU ARE LOOKING FOR HERE
               </h1>
               <p className='block antialiased font-sans text-xl font-semibold mb-6 text-black dark:text-[#FFF2AD] lg:pr-12'>
            Our Customers demand by making them Satisfied with growing their busines 
               </p>
-              <div className='flex flex-col-reverse gap-2 lg:flex-row '> 
-                <a href="contactus">
+              <div className='flex flex-col sm:items-center gap-2 lg:flex-row '> 
+                <a href="/">
                   <button className='middle none font-sans font-bold center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none 
                   text-xs py-3 px-6 rounded-lg bg-gradient-to-tr from-blue-600 to-blue-400 text-white shadow-md shadow-blue-500/20 hover:shadow-lg hover:shadow-blue-500/40
-                  active:opacity-[0.85] h-full w-full'>
+                  active:opacity-[0.85] h-full w-full sm:w-2/2 sm:h-2/2'>
                     Get Started
                   </button>
                   </a>
-                  <div className='flex rounded-lg border border-gray-100 bg-white/80 py-2.5 px-5 text-[#1A237E] shadow-2xl shadow-blue-gray-500/20 backdrop-blur-2xl backdrop-saturate-200'>   
+                  <button className='flex rounded-lg border border-gray-100 bg-white/80 sm:w-2/2 sm:h-2/2 py-2.5 px-5 text-[#1A237E] shadow-2xl shadow-blue-gray-500/20 backdrop-blur-2xl backdrop-saturate-200'>   
                   <AiOutlinePlayCircle className='text-xl font-semibold  ' />   <a href='https://fb.watch/eLFYxoCiFK/' className='font-semibold pl-4 '>
                       Watch Video
                     </a>
                  
-                  </div>  
+                  </button>  
               </div>
             </div>
-            <div className=' w-full px-4 mt-56 lg:mt-44 lg:w-[800px] md:w-[800px] sm:w-[1000px] sm:rounded-xl'>
+            <div className='hidden w-full sm:w-12/12 sm:mt-32 sm:mr-6 sm:-mb-6 sm:justify-center mt-56 lg:mt-44 lg:w-[800px] md:w-[800px] sm:rounded-xl'>
            <img src={sideImg} className=' h-full max-w-full ' alt="" />
             </div>
        </div>
         </div>
       </div>
-      <div className='relative flex flex-col bg-clip-border  rounded-xl text-gray-700 mx-6 mt-44  bg-white dark:bg-gray-600 md:mx-12 md:-mt-8 sm:mt-56'>
-        <div className='container z-20 mx-auto px-2'>
+      <div className='relative flex flex-col bg-clip-border  rounded-xl text-gray-500 mx-6 mt-44  bg-transparent dark:bg-gray-600 md:mx-12 md:-mt-8 sm:mt-24'>
+        <div className='container z-20 mx-auto px-2 '>
          
-          <section className='py-10 lg:py-20'> 
+          <section className='py-10 lg:py-20 sm:space-y-12 '> 
             {/* Services Sections */}
-            <div className='mx-auto mb-24 w-full text-center md:w-3/4 lg:w-1/2' >
-              <div className='block antialiased font-sans text-4xl leading-[1.3] mb-2 font-bold tracking-normal text-[#090c27]'>
+            <div className='mx-auto mt-12 mb-4 sm:mb-2 w-full text-center md:w-3/4 lg:w-1/2' >
+              <div className='block antialiased font-sans text-4xl leading-[1.3] mb-2 font-bold tracking-normal bg-clip-text text-transparent 
+                  bg-gradient-to-tr from-blue-600 to-blue-400'>
                 Our Services 
               </div>
               <p className='block antialiased font-medium text-2xl mb-4  text-primary-dark'>
            We Can Make your Busines More Profitable And More Customers 
               </p>
             </div>
-            <section className='pt-2 pl-4'>
-              <div className='flex flex-wrap  items-center  justify-center px-6'>
-                <div className='w-full px-4 lg:w-5/12'>
-                  <h1 className='antialiased font-sans text-8xl leading-[1.3] bg-clip-text text-transparent 
-                  bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal uppercase'>    The Meta Apps    
+            <section className='pt-2 pl-4 sm:items-center sm:justify-center sm:px-0 '>
+              <div className='flex flex-wrap  items-center  px-6 sm:px-2'>
+                <div className='w-full px-4 lg:w-5/12 sm:items-center sm:px-2 sm:text-center'>
+                  <h1 className='antialiased font-sans text-8xl sm:text-2xl sm:text-center leading-[1.3] bg-clip-text text-transparent 
+                  bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal  '>    The Meta Apps    
                   </h1>
-                  <p className='block antialiased font-sans font-light mb-5 text-lg text-[#1A237E]/60 md:pr-10'>
+                  <p className='block antialiased font-sans font-medium mb-5 text-lg text-primary-dark md:pr-10'>
                 Material Tailwind provides a simple way to customize your button; you can change the colors, fonts, styling, and everything you need.
                   </p>
-                  <a href="/">
-                    <button className='middle none font-sans font-bold center uppercase transition-all disabled:opacity-50 disabled:shadow-none
-                    disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-blue-500 text-white shadow-md shadow-blue-500/20
-                    hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none'>
-                    Get Start 
-                    </button>
-                   
-                  </a>
+                 
                   {/* <span className='font-bold text-left text-xl ml-8'>
                     Starting $150
                   </span> */}
@@ -128,83 +122,22 @@ const Home = () => {
                 </div>
               </div>
             </section>
-            <section className='pt-6 pl-2'>
-              <div className='flex flex-wrap sm:flex-col-reverse items-center justify-center px-2'>
+            <section className='pt-2 pl-4 sm:items-center sm:justify-center sm:px-0'>
+              <div className='flex flex-wrap  items-center  px-6 sm:px-2'>
+                <div className='w-full px-4 lg:w-5/12 sm:items-center sm:px-2 sm:text-center'>
+                  <h1 className='antialiased font-sans text-8xl sm:text-2xl sm:text-center leading-[1.3] bg-clip-text text-transparent 
+                  bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal  '>    The Meta Apps    
+                  </h1>
+                  <p className='block antialiased font-sans font-medium mb-5 text-lg text-primary-dark md:pr-10'>
+                Material Tailwind provides a simple way to customize your button; you can change the colors, fonts, styling, and everything you need.
+                  </p>
+                  {/* <span className='font-bold text-left text-xl ml-8'>
+                    Starting $150
+                  </span> */}
+                </div>
                 <div className='relative mt-10 w-full pl-2 md:w-8/12 lg:mt-0 lg:w-6/12'>
-                    <img src={Desinger}  alt="" />
+                    <img src={Meta}  alt="" />
                 </div>
-                <div className='w-full px-4 lg:w-5/12'>
-                  <h1 className='antialiased text-right font-sans text-8xl leading-[1.3] bg-clip-text text-transparent 
-                  bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal uppercase'>    Graphic Design   
-                  </h1>
-                  <p className='block text-right antialiased font-sans ml-[60px] font-light mb-5 text-lg text-[#1A237E]/60 md:pr-10'>
-                Material Tailwind provides a simple way to customize your button; you can change the colors, fonts, styling, and everything you need.
-                  </p>
-                  <a href="/">
-                    <button className='middle  none font-sans font-bold center uppercase ml-[460px] transition-all disabled:opacity-50 disabled:shadow-none
-                    disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-blue-500 text-white shadow-md shadow-blue-500/20
-                    hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none'>
-                    Get Start 
-                    </button>
-                   
-                  </a>
-                  {/* <span className='font-bold text-left text-xl ml-8'>
-                    Starting $150
-                  </span> */}
-                </div>   
-              </div>
-            </section>
-            <section className='pt-8 pl-2'>
-              <div className='flex flex-wrap items-center justify-center px-6'>
-                <div className='w-full px-4 lg:w-5/12'>
-                  <h1 className='antialiased font-sans text-8xl leading-[1.3] bg-clip-text text-transparent 
-                  bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal uppercase'>    Web Development  
-                  </h1>
-                  <p className='block antialiased font-sans font-light mb-5 text-lg text-[#1A237E]/60 md:pr-10'>
-                Material Tailwind provides a simple way to customize your button; you can change the colors, fonts, styling, and everything you need.
-                  </p>
-                  <a href="/">
-                    <button className='middle none font-sans font-bold center uppercase transition-all disabled:opacity-50 disabled:shadow-none
-                    disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-blue-500 text-white shadow-md shadow-blue-500/20
-                    hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none'>
-                    Get Start 
-                    </button>
-                   
-                  </a>
-                  {/* <span className='font-bold text-left text-xl ml-8'>
-                    Starting $150
-                  </span> */}
-                </div>
-                <div className='relative mt-10 w-full pl-32 md:w-8/12 lg:mt-0 lg:w-6/12'>
-                    <img src={WebDev} className='flex-shrink-0'  alt="" />
-                </div>
-              </div>
-            </section>
-            <section className='pt-8 pl-2'>
-              <div className='flex relative flex-row items-center justify-center px-2'>
-                <div className=' mt-10 w-full px-8  md:w-6/12 lg:mt-0 lg:w-6/12'>
-                    <img src={EmailM} className='flex-shrink'  alt="" />
-                </div>
-                
-                <div className=' w-full px- lg:w-6/12'>
-                  <h1 className='antialiased  text-center lg:text-left font-sans text-7xl leading-[1.3] bg-clip-text text-transparent 
-                  bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal uppercase'>    Email Marketing  
-                  </h1>
-                  <p className='block sm:text-center lg:text-left antialiased font-sans font-light mb-5 text-lg text-[#1A237E]/60 md:pr-10'>
-                Material Tailwind provides a simple way to customize your button; you can change the colors, fonts, styling, and everything you need.
-                  </p>
-                  <a href="/">
-                    <button className='middle  none font-sans font-bold center uppercase ml-[460px] transition-all disabled:opacity-50 disabled:shadow-none
-                    disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-blue-500 text-white shadow-md shadow-blue-500/20
-                    hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none'>
-                    Get Start 
-                    </button>
-                   
-                  </a>
-                  {/* <span className='font-bold text-left text-xl ml-8'>
-                    Starting $150
-                  </span> */}
-                </div>   
               </div>
             </section>
             
@@ -482,25 +415,25 @@ const Home = () => {
           </section>
           <section className='py-10 md:py-24'>
             {/* Contact Us */}
-           <div className='mx-auto mb-24 w-full text-center md:w-3/4 lg:w-1/2' >
+           <div className='mx-auto mb-2 w-full text-center md:w-3/4 lg:w-1/2' >
               <div className='block antialiased font-sans text-4xl leading-[1.3] mb-2 font-bold tracking-normal text-[#1A237E]'>
                Contact Us 
               </div> 
             </div>
-            <div className="grid grid-rows-2 grid-flow-col bg-gradient-to-r from-sky-500 to-indigo-500 rounded-2xl mt-6 gap-4">
-              <div className='row-span-2 col-span-2 sm:grid-col-2 items-center '>
+            <div className="flex flex-col mt-6 gap-1">
+              <div className='row-span-2 col-span-2 '>
             <div className="w-full lg:w-2/3">
-      <div className="text-left max-w-xl px-6 ml-44 pb-32">
-        <h2 className="font-general-medium text-2xl  text-white dark:text-primary-light mt-12 pb-32 mb-8">
+      <div className="text-center max-w-xl px-6 mx-4 ">
+        <h2 className="font-general-medium text-2xl  text-black dark:text-primary-light mt-12 pb-2 mb-2">
           Contact details
         </h2>
         <ul className="font-general-regular">
           {contacts.map((contact) => (
             <li className="flex " key={contact.id}>
-              <i className="text-2xl text-white dark:text-primary-light mr-4">
+              <i className="text-2xl text-black dark:text-primary-light mr-4">
                 {contact.icon}
               </i>
-              <span className="text-lg mb-4 text-white dark:text-primary-light">
+              <span className="text-lg mb-4 ttext-black dark:text-primary-light">
                 {contact.name}
               </span>
             </li>
@@ -516,7 +449,7 @@ const Home = () => {
           onSubmit={(e) => {
             e.preventDefault();
           }}
-          className="max-w-xl m-4 p-6 sm:p-10 bg-gradient-to-r from-sky-500 to-indigo-500 rounded-xl shadow-xl text-left"
+          className="max-w-xl m-4 p-6 sm:p-10 bg-yellow-300 rounded-xl shadow-xl text-left"
         >
           <p className="font-general-medium text-primary-light dark:text-primary-light text-2xl mb-8">
             Contact Form
