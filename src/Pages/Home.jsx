@@ -60,7 +60,7 @@ const Home = () => {
     <div className="h-screen min-h-screen bg-cover bg-url('/src/Assets/img/100.png')   dark:bg-primary-dark bg-center bg-no-repeat" >
       <div className='container mx-auto  py-2 mr-2 sm:px-4 sm:justify-center'>
         <div className='flex flex-row items-center sm:flex sm:flex-col space-x-2'>
-          <div className='-mb-32 mt-36 w-full px-4 md:w-8/12 lg:mt-36 lg:w-5/12 sm:mt-64 sm:text-center lg:text-left '>
+            <div className='-mb-32 mt-28 w-full px-4 md:w-8/12 lg:mt-36 lg:w-5/12 sm:mt-64 sm:text-center lg:text-left '>
             <h1 className='block antialiased font-sans text-6xl  mb-2 leading-tight sm:mb-2 font-black tracking-normal text-black dark:text-[#FFF2AD]'>
            SMART IDEAS YOU ARE LOOKING FOR HERE
               </h1>
@@ -94,7 +94,7 @@ const Home = () => {
          
           <section className='py-10 lg:py-20 sm:space-y-12 '> 
             {/* Services Sections */}
-            <div className='mx-auto mt-12 mb-4 sm:mb-2 w-full text-center md:w-3/4 lg:w-1/2' >
+            <div className='mx-auto mt-4 mb-4 sm:mb-2 w-full text-center md:w-3/4 lg:w-1/2' >
               <div className='block antialiased font-sans text-4xl leading-[1.3] mb-2 font-bold tracking-normal bg-clip-text text-transparent 
                   bg-gradient-to-tr from-blue-600 to-blue-400'>
                 Our Services 
@@ -104,9 +104,9 @@ const Home = () => {
               </p>
             </div>
             <section className='pt-2 pl-4 sm:items-center sm:justify-center sm:px-0 '>
-              <div className='flex flex-wrap  items-center  px-6 sm:px-2'>
-                <div className='w-full px-4 lg:w-5/12 sm:items-center sm:px-2 sm:text-center'>
-                  <h1 className='antialiased font-sans text-8xl sm:text-2xl sm:text-center leading-[1.3] bg-clip-text text-transparent 
+              <div className='flex flex-wrap  items-center px-0 sm:px-2'>
+                <div className='w-full  lg:w-5/12 sm:items-center sm:px-2 sm:text-center'>
+                  <h1 className='antialiased font-sans text-2xl sm:text-2xl sm:text-center leading-[1.3] bg-clip-text text-transparent 
                   bg-gradient-to-tr from-blue-600 to-blue-400 inline-block font-black tracking-normal  '>    The Meta Apps    
                   </h1>
                   <p className='block antialiased font-sans font-medium mb-5 text-lg text-primary-dark md:pr-10'>
@@ -117,7 +117,7 @@ const Home = () => {
                     Starting $150
                   </span> */}
                 </div>
-                <div className='relative mt-10 w-full pl-2 md:w-8/12 lg:mt-0 lg:w-6/12'>
+                <div className='relative mt-10 w-full  md:w-8/12 lg:mt-0 lg:w-6/12'>
                     <img src={Meta}  alt="" />
                 </div>
               </div>
