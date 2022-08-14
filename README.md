@@ -4,7 +4,7 @@
  1. Tailwind 
  Install the Autoprefixer 
  
- `npm install -D tailwindcss postcss autoprefixer`
+ `npm install -D tailwindcss postcss autoprefixer `
  
  2. Create React App 
  Use 
