@@ -1,6 +1,6 @@
 # This is a digital agency website  
 
-#### Thisbiste
+#### Thisb
 
 ## Tooling 
  1. Tailwind 
