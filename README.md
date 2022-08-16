@@ -1,6 +1,6 @@
 # This is a digital agency website  
 
-#### Thi
+#### T
 
 ## Tooling 
  1. Tailwind 
