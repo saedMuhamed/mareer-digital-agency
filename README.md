@@ -10,7 +10,8 @@
  
  2. Create React App 
  Use 
- 
+ - Run to initiazialise 
+
  `npx create-react-app mareer-digital-agency `
  
  `cd mareer-digital-agency`
