@@ -9,8 +9,6 @@
  `npm install -D tailwindcss postcss autoprefixer `
  
  2. Create React App 
- Use 
- - Run to initiazialise 
 
  `npx create-react-app mareer-digital-agency `
  
