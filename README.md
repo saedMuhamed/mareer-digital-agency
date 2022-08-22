@@ -2,7 +2,7 @@
 
 
 
-## Tooling 
+## Toolin
  1. Tailwind 
  Install the Autoprefixer 
  
