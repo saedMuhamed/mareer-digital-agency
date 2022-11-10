@@ -8,7 +8,6 @@
  
  2. Create React App 
 
-
  `npx create-react-app mareer-digital-agency `
  
  `cd mareer-digital-agency`
