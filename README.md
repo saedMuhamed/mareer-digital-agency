@@ -1,6 +1,6 @@
 # This is a digital agency website  
 
-## Tooling
+## Tooling the project
  1. Tailwind 
  Install the Autoprefixer 
  
